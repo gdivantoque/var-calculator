@@ -4,7 +4,7 @@ import pandas as pd
 import pytest  # the testing tool
 
 # Import the function we want to test from our own package.
-from project_name.core import log_returns
+from var_calculator.core import log_returns
 
 
 # pytest automatically runs every function whose name starts with "test_".

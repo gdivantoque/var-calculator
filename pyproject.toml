@@ -1,5 +1,5 @@
 [project]
-name = "project-name"
+name = "var-calculator"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-project-name = "project_name:main"
+var-calculator = "var_calculator:main"
 
 [build-system]
 requires = ["uv_build>=0.13.9,<0.14.0"]
@@ -39,4 +39,4 @@ select = ["E", "W", "F", "I", "B", "UP", "N", "SIM", "PD", "NPY"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-ra -q --cov=project_name --cov-report=term-missing"
+addopts = "-ra -q --cov=var_calculator --cov-report=term-missing"
